@@ -19,6 +19,7 @@ h1 , h3
 
 
 }
+
 #bandeau
 {
 	
@@ -302,71 +303,54 @@ html
 {
     #container
     {
-		width: 900px;
+		width: 100%;
 		height: 100%;
-		margin-top: 60px;
-        margin-left: 40px;
+        margin-left: 5px;
 
     }
 
     #bandeau
     {
-       width: 250px;
-	   height: 100%;
+       width: 100%;
+	   height: 30%;
        
 
     }
-    #portrait
-    {
-    	margin-top: 30px;
-    	
-
-    }
-
-    #menu
-    {
-    	width: 600px;
-    	height: 100%;
-
-    	
-     
-    }
-
-    .entete
-    {
-    	text-align: center;
-    }
-
-    .element1
-    {
-    	margin: auto;
-    	width: 70%;
-
-    }
-
-    .liseret
-    {
-    	margin: auto;
-    }
-    .info
-    {
-    	font-size: 1.5em;
-    	margin-left: 15px;
-    }
-    .vendstoi
-    {
-		font-size: 1.5em;
-		width: 200px;
-    }
-
-    .liste1
-    {
-    	font-size: 1.2em;
-	}
 	
-	.cible
+	#menu
 	{
-		background-position: -9% 50%
+		width: 100%;
 	}
 	
+	.info
+	{
+		text-align: center;
+	}
+	
+	
+	.entete 
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.entete,h2
+	{
+		margin: auto;
+	}
+	
+	.contact
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	.vendstoi
+	{
+		text-align: justify;
+		margin-left: 100px;
+	}
 }
+   
