@@ -146,7 +146,7 @@ a
 	flex-direction: column;
 	justify-content: space-around;
 	background-color: #ffff;
-	width: 600px;
+	min-width: 600px;
 }
 
 .entete
