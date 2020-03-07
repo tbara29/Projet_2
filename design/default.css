@@ -51,7 +51,7 @@ h1 , h3
 .cercle
 {
 	width: 50px;
-	clip-path: circle(50%);
+	-webkit-clip-path: circle(50%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
