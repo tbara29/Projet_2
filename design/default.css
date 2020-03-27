@@ -7,7 +7,9 @@ h2,
 h3 {
   color: black;
 }
-
+#w3c_valid{
+	display: flex;
+}
 #container {
   width: 960px;
   color: #2a2c23;
@@ -46,7 +48,6 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10%;
   vertical-align: middle;
 }
 
